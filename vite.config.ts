@@ -6,8 +6,8 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         api: 'modern-compiler',
-      }
-    }
+      },
+    },
   },
   plugins: [react()],
 });

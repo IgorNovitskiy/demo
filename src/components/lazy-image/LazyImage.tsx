@@ -20,14 +20,7 @@ const LazyImage: FC<LazyImageProps> = ({ src, alt }) => {
         </div>
       )}
 
-      <img
-        src={src}
-        alt={alt}
-        onLoad={() => setIsLoaded(true)}
-        loading="lazy"
-        width={200}
-        height={200}
-      />
+      <img src={src} alt={alt} onLoad={() => setIsLoaded(true)} loading="lazy" width={200} height={200} />
     </div>
   );
 };

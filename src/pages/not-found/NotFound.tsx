@@ -14,8 +14,9 @@ const NotFound: FC = () => {
         <span className={classes.number}>4</span>
       </div>
 
-
-      <Link to="/" className={classes.link}>Return to main page</Link>
+      <Link to="/" className={classes.link}>
+        Return to main page
+      </Link>
     </div>
   );
 };

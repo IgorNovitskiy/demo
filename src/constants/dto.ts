@@ -9,8 +9,8 @@ export type DrinkItemDto = {
 
   [key: `strIngredient${number}`]: string | null;
   [key: `strMeasure${number}`]: string | null;
-}
+};
 
 export type DrinksDto = {
-  drinks: DrinkItemDto[],
-}
+  drinks: DrinkItemDto[];
+};
