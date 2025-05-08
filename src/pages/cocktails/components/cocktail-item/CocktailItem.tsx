@@ -1,12 +1,11 @@
-import { FC, memo, useState } from 'react';
-import cn from 'classnames';
+import { FC, memo } from 'react';
 
 import { Drink } from '../../../../constants/models';
 
 import classes from './cocktail-item.module.scss';
+import LazyImage from '../../../../components/lazy-image/LazyImage';
 
 const CocktailItem: FC<Drink> = item => {
-  const [isLoaded, setIsLoaded] = useState(false);
 
   return (
     <section className={classes.container}>
@@ -35,15 +34,7 @@ const CocktailItem: FC<Drink> = item => {
         ))}
       </div>
 
-      {!isLoaded && <div>LOADING</div>}
-
-      <img
-        src={item.strDrinkThumb}
-        alt={item.strDrink}
-        onLoad={() => setIsLoaded(true)}
-        loading="lazy"
-        className={cn(classes.image, { [classes.hidden]: !isLoaded })}
-      />
+      <LazyImage src={item.strDrinkThumb} alt={item.strDrink} />
     </section>
   );
 };

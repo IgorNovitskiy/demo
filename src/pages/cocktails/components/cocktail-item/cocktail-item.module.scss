@@ -18,12 +18,3 @@
   display: flex;
   gap: 20px;
 }
-
-.image {
-  width: 200px;
-  height: 200px;
-
-  &.hidden {
-    visibility: hidden;
-  }
-}

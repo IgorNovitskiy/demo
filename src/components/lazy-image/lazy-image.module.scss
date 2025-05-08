@@ -1,0 +1,14 @@
+.container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.loaderContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
