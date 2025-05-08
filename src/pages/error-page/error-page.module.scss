@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 4px;
+  background-color: var(--color-main);
+
+  &:hover {
+    background-color: var(--color-secondary);
+  }
+}
