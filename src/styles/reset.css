@@ -12,12 +12,16 @@
 
 body {
   display: flex;
-  min-width: 320px;
+  justify-content: center;
   min-height: 100vh;
+  background-color: var(--color-background);
 }
 
 #root {
   width: 100%;
+  min-width: 320px;
+  max-width: 1024px;
+  background-color: white;
 }
 
 a,

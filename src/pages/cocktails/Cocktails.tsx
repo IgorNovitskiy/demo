@@ -41,7 +41,7 @@ const Cocktails: FC<CocktailsProps> = ({ code }) => {
   return (
     <div className={classes.content}>
       {data.map(drink => (
-        <CocktailItem {...drink} />
+        <CocktailItem key={drink.idDrink} {...drink} />
       ))}
     </div>
   );

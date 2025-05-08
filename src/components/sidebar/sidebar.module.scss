@@ -7,12 +7,18 @@
   background-color: var(--color-main);
 }
 
+.navigation {
+  position: sticky;
+  top: 20px;
+}
+
 .link {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 40px;
   padding: 0 10px;
+  font-size: 20px;
 
   &:hover {
     background-color: var(--color-secondary);

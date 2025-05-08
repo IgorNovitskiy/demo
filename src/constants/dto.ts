@@ -1,4 +1,5 @@
 export type DrinkItemDto = {
+  idDrink: string;
   strDrink: string;
   strCategory: string;
   strAlcoholic: string;

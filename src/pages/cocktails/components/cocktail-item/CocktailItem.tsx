@@ -27,7 +27,7 @@ const CocktailItem: FC<Drink> = item => {
 
         <h3>List of ingredients:</h3>
         {item.ingredientList.map(item => (
-          <div key={item.ingredient} className={classes.ingredient}>
+          <div key={`${item.ingredient}-${item.measure}`} className={classes.ingredient}>
             <span>{item.ingredient}:</span>
             <span>{item.measure}</span>
           </div>
