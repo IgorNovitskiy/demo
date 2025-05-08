@@ -7,3 +7,10 @@
     border-bottom: 2px solid var(--color-secondary);
   }
 }
+
+.placeholder {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
