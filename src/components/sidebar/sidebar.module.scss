@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  height: 100%;
+  padding: 10px 0;
+  background-color: var(--color-main);
+}
+
+.link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+
+  &:hover {
+    background-color: var(--color-secondary);
+  }
+
+  &:global(.active) {
+    background-color: var(--color-tertiary);
+  }
+}

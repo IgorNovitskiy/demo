@@ -1,0 +1,7 @@
+.vscode/*
+
+node_modules
+dist
+
+tsconfig.app.tsbuildinfo
+tsconfig.vite.tsbuildinfo
