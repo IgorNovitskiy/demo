@@ -6,7 +6,6 @@ import classes from './cocktail-item.module.scss';
 import LazyImage from '../../../../components/lazy-image/LazyImage';
 
 const CocktailItem: FC<Drink> = item => {
-
   return (
     <section className={classes.container}>
       <div className={classes.info}>

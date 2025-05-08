@@ -8,7 +8,9 @@ const ErrorPage: FC = () => {
     <div className={classes.container}>
       <h3>Something went wrong</h3>
 
-      <Link to="/" className={classes.link}>Return to main page</Link>
+      <Link to="/" className={classes.link}>
+        Return to main page
+      </Link>
     </div>
   );
 };
