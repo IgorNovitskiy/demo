@@ -5,3 +5,5 @@ dist
 
 tsconfig.app.tsbuildinfo
 tsconfig.vite.tsbuildinfo
+# Sentry Config File
+.env.sentry-build-plugin
